@@ -2,6 +2,8 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingBasket, faChevronDown} from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
+import HomePage from "../pages/HomePage";
 
 const Header = () => {
   const [languageMenuOpen, setLanguageMenuOpen] = useState(false);
@@ -9,10 +11,11 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-md py-3 px-6 flex justify-between items-center">
-      {/* 🚀 BÜYÜK EKRAN (Desktop) */}
+      {/*Desktop */}
       <div className="hidden md:flex justify-around items-center w-full">
         {/* Sol Kısım: Logo */}
-        <h1 className="text-2xl font-bold text-pink-600 italic">Ekmeklenye</h1>
+        <Link to={HomePage}><h1 className="text-3xl font-bold text-pink-600 italic">EkmeklenYe</h1></Link>
+        
 
         {/* Sağ Kısım: Giriş Yap, Kayıt Ol, Dil Seçimi ve Sepet */}
         <div className="flex items-center space-x-4">
