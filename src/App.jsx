@@ -1,18 +1,22 @@
-import './App.css'
-import Header from './layout/Header'
-import PageContent from './layout/PageContent'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import { Toaster } from "react-hot-toast";
+import { Provider } from "react-redux";
 
-
-
-
-function App() {
-  
+function AppContent() {
 
   return (
     <>
-      <PageContent/>
+      <Toaster />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default function App() {
+  return (
+      <AppContent />
+  );
+}
