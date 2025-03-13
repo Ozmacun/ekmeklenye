@@ -193,7 +193,7 @@ const Footer = () => {
               Çorum
             </Link>
             <Link
-              to="/sehirler"
+              to="/Sehirler"
               className="relative text-gray-700 underline decoration-1 transition-all duration-1000 hover:decoration-3 underline-offset-4"
             >
               Bütün Şehir ve Bölgeler

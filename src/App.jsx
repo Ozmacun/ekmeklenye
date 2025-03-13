@@ -1,7 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import { Toaster } from "react-hot-toast";
-import { Provider } from "react-redux";
+import Sehirler from "./pages/Sehirler";
+import SiparisSehirlerSection from "./components/SiparisSehirlerBanner";
+
 
 function AppContent() {
 
@@ -10,6 +12,8 @@ function AppContent() {
       <Toaster />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/Sehirler" element={<Sehirler />} />
+
         </Routes>
     </>
   );

@@ -9,10 +9,10 @@ const Header = () => {
   const [languageMenuOpen, setLanguageMenuOpen] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState("TR");
 
-  return (
-    <header className="bg-white  py-3 flex justify-between items-center max-w-6xl mx-auto px-6">
+  return (<header className="bg-white py-3 fixed top-0 left-0 right-0 z-50">
       {/*Desktop */}
-      <div className="hidden md:flex justify-between items-center w-full">
+      <div className="hidden md:flex justify-between items-center w-full max-w-6xl mx-auto px-6">
+    
         {/* Sol Kısım: Logo */}
         <Link to={HomePage}><h1 className="text-3xl font-bold text-pink-600 italic cursor-pointer">EkmeklenYe</h1></Link>
         

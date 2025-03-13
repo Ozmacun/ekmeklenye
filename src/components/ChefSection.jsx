@@ -4,7 +4,7 @@ import chef from '../assets/images/chef.webp';
 const ChefSection = () => {
   return (
     <section className="relative pb-60 md:pb-40">
-      {/* Title section - only visible on desktop */}
+      {/* Title section is only gonna be visible on desktop!!! */}
       <div className="hidden md:block max-w-6xl mx-auto px-4 sm:px-6 py-8">
         <h2 className="text-2xl md:text-3xl font-normal">
           Restoran veya Mahalle esnafı iş ortağımız olun
