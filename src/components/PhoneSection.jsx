@@ -13,7 +13,6 @@ function PhoneSection() {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
             {/* Sol İçerik */}
             <div className="p-8 lg:p-12">
-              
               <p className="text-xl text-white mb-8">
                 Yemek ve market ihtiyaçlarının tamamı için hemen indir!
               </p>
@@ -23,7 +22,7 @@ function PhoneSection() {
                 siparişini ver, online ya da kapıda dilediğin gibi öde.
               </p>
 
-              <div className="flex flex-col sm:flex-row items-start gap-6 mb-8">
+              <div className="flex flex-col items-center sm:flex-row sm:items-start gap-6 mb-8">
                 <div className="w-32 h-32 bg-white p-2 rounded-lg flex items-center justify-center">
                   <a href="/" className="w-max">
                     <img
@@ -37,21 +36,21 @@ function PhoneSection() {
                   <a
                     href="#"
                     target="_blank"
-                    className="block w-full sm:w-40 h-12 bg-black rounded-lg items-center justify-center"
+                    className="w-full sm:w-40 h-12 bg-black rounded-lg flex items-center justify-center"
                   >
                     <span className="text-white">App Store</span>
                   </a>
                   <a
                     href="#"
                     target="_blank"
-                    className="block w-full sm:w-40 h-12 bg-black rounded-lg flex items-center justify-center"
+                    className="w-full sm:w-40 h-12 bg-black rounded-lg flex items-center justify-center"
                   >
                     <span className="text-white">Google Play</span>
                   </a>
                   <a
                     href="#"
                     target="_blank"
-                    className="block w-full sm:w-40 h-12 bg-black rounded-lg flex items-center justify-center"
+                    className="w-full sm:w-40 h-12 bg-black rounded-lg flex items-center justify-center"
                   >
                     <span className="text-white">AppGallery</span>
                   </a>

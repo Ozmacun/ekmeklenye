@@ -1,4 +1,5 @@
 import React from 'react';
+import chef from '../assets/images/chef.webp';
 
 const ChefSection = () => {
   return (
@@ -12,7 +13,7 @@ const ChefSection = () => {
 
       <div className="relative">
         <img
-          src="https://ekmeklenye.vercel.app/assets/chef-BddyvUSP.webp"
+          src={chef}
           alt="Chef preparing food"
           className="w-full h-[500px] md:h-[450px] object-cover"
         />
