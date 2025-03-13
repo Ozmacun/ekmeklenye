@@ -10,22 +10,22 @@ const Header = () => {
   const [selectedLanguage, setSelectedLanguage] = useState("TR");
 
   return (
-    <header className="bg-white shadow-md py-3 px-6 flex justify-between items-center">
+    <header className="bg-white  py-3 flex justify-between items-center max-w-6xl mx-auto px-6">
       {/*Desktop */}
-      <div className="hidden md:flex justify-around items-center w-full">
+      <div className="hidden md:flex justify-between items-center w-full">
         {/* Sol Kısım: Logo */}
-        <Link to={HomePage}><h1 className="text-3xl font-bold text-pink-600 italic">EkmeklenYe</h1></Link>
+        <Link to={HomePage}><h1 className="text-3xl font-bold text-pink-600 italic cursor-pointer">EkmeklenYe</h1></Link>
         
 
         {/* Sağ Kısım: Giriş Yap, Kayıt Ol, Dil Seçimi ve Sepet */}
         <div className="flex items-center space-x-4">
           {/* Giriş Yap Butonu */}
-          <button className="border border-gray-500 text-gray-700 px-4 py-1 rounded-md transition-transform transform hover:scale-105">
+          <button className="border border-gray-500 text-gray-700 px-4 py-1 rounded-md transition-transform transform hover:scale-105 cursor-pointer">
             Giriş Yap
           </button>
 
           {/* Kayıt Ol Butonu */}
-          <button className="bg-pink-600 text-white px-4 py-1 rounded-md transition-transform transform hover:scale-105">
+          <button className="bg-pink-600 text-white px-4 py-1 rounded-md transition-transform transform hover:scale-105 cursor-pointer">
             Kayıt Ol
           </button>
 
@@ -33,7 +33,7 @@ const Header = () => {
           <div className="relative">
             <button
               onClick={() => setLanguageMenuOpen(!languageMenuOpen)}
-              className="flex items-center space-x-1 px-3 py-1 rounded-md transition-transform transform hover:scale-105"
+              className="flex items-center space-x-1 px-3 py-1 rounded-md transition-transform transform hover:scale-105 cursor-pointer"
             >
               <span className="text-gray-700">{selectedLanguage}</span>
               <FontAwesomeIcon icon={faChevronDown} className="text-pink-600" />
@@ -72,7 +72,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* 📱 KÜÇÜK EKRAN (Mobil) */}
+      {/* Mobil */}
       <div className="flex md:hidden justify-between items-center w-full">
         {/* Sol: Kullanıcı İkonu */}
         <FontAwesomeIcon

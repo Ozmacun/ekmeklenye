@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 
 const InfoSection = () => {
   return (
-    <section className="max-w-6xl mx-auto px-8 py-10 text-gray-700">
+    <section className="max-w-6xl mx-auto px-8 py-10 mt-50 text-gray-700">
       {/* Metin İçeriği */}
       <p className="mb-4">
         Türkiye'nin 81 şehri ve KKTC'de, 50 bini aşkın restoran iş ortağımızla, Türkiye’de online yemek siparişi denince ilk akla gelen markayız! 
