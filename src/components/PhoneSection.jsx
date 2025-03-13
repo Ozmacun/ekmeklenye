@@ -22,7 +22,7 @@ function PhoneSection() {
                 siparişini ver, online ya da kapıda dilediğin gibi öde.
               </p>
 
-              <div className="flex flex-col items-center sm:flex-row sm:items-start gap-6 mb-8">
+              <div className="flex flex-col items-center md:flex-row md:items-start gap-6 mb-8">
                 <div className="w-32 h-32 bg-white p-2 rounded-lg flex items-center justify-center">
                   <a href="/" className="w-max">
                     <img

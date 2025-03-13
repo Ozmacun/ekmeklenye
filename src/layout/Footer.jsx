@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" py-10">
+    <footer className="">
       <div className="max-w-6xl mx-auto px-6">
         {/* Mutfaklar Bölümü */}
         <div className="border-t border-gray-200 pt-10 mt-15">

@@ -6,7 +6,7 @@ const ChefSection = () => {
     <section className="relative pb-60 md:pb-40">
       {/* Title section is only gonna be visible on desktop!!! */}
       <div className="hidden md:block max-w-6xl mx-auto px-4 sm:px-6 py-8">
-        <h2 className="text-2xl md:text-3xl font-normal">
+        <h2 className="text-3xl md:text-4xl font-normal">
           Restoran veya Mahalle esnafı iş ortağımız olun
         </h2>
       </div>
