@@ -5,7 +5,7 @@ const SiparisSehirlerDetay = () => {
   return (
     
         <div className="max-w-6xl mx-auto px-6">
-                {/* Mutfaklar Bölümü */}
+                {/* Mutfaklar*/}
                 <div className="border-t border-gray-200 pt-10 mt-15">
                   <h2 className="text-3xl font-light mb-5">Türkiye'de En Çok Yemek Siparişi Verilen 12 Şehir</h2>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-gray-700 mb-8">
@@ -85,7 +85,7 @@ const SiparisSehirlerDetay = () => {
                   </div>
                 </div>
         
-                {/* Diğer Şehirler Bölümü */}
+                {/* Diğer Şehirler*/}
                 <div className="border-t border-gray-200 pt-10 mt-15">
                   <h2 className="text-3xl font-light mb-5">Türkiye'de Online Yemek Siparişi Verebileceğiniz Şehirler</h2>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-gray-700 font-medium">

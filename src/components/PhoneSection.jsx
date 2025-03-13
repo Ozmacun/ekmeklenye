@@ -11,7 +11,6 @@ function PhoneSection() {
               </h1>
         <div className="bg-pink-600 rounded-3xl overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
-            {/* Sol İçerik */}
             <div className="p-8 lg:p-12">
               <p className="text-xl text-white mb-8">
                 Yemek ve market ihtiyaçlarının tamamı için hemen indir!
@@ -58,7 +57,7 @@ function PhoneSection() {
               </div>
             </div>
 
-            {/* Sağ İçerik - Telefon Resmi */}
+            {/*Telefon Resmi*/}
             <div className="p-8 lg:p-12 flex justify-center">
               <img
                 src={phone}

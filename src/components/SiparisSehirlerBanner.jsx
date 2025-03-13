@@ -17,10 +17,6 @@ const SiparisSehirlerBanner = () => {
           </h1>
         </div>
       </div>
-      <div className="max-w-6xl mx-auto px-6">
-        {/* Mutfaklar Bölümü */}
-        
-      </div>
     </section>
   );
 };

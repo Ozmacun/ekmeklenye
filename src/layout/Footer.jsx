@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="">
+    <footer className="mb-10">
       <div className="max-w-6xl mx-auto px-6">
         {/* Mutfaklar Bölümü */}
         <div className="border-t border-gray-200 pt-10 mt-15">
@@ -212,9 +212,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Footer Alt Bilgi Bölümü */}
         <div className="border-t border-gray-200 pt-10 mt-5 flex flex-col md:flex-row text-gray-600 text-sm justify-between font-medium text-center md:text-left">
-          <p className="mt-5 md:mt-0">© EkmeklenYe</p>
+          <p className="mt-5 md:mt-5">© EkmeklenYe</p>
           <div className="flex justify-center md:justify-between mt-5">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 gap-x-20">
               <Link
@@ -292,17 +291,17 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* Sosyal medya linkleri ve */}
+        {/* Sosyal medya linkleri ve ötesi*/}
         <div className="border-t border-gray-200 pt-10 mt-5 text-gray-600 text-sm flex justify-between font-medium md:flex-row flex-col">
           <div className="flex items-center space-x-4 text-gray-700 font-semibold justify-center md:justify-between md:mb-0 mb-5">
           <h1 className="text-2xl font-bold text-pink-600 italic ">EkmeklenYe</h1>
             <span className="border-l border-gray-600 h-9"></span>{" "}
-            {/* Dikey Çizgi */}
+            {/*DikeyÇizgi*/}
             
             <span className="italic text-gray-700 text-xl">Paket Taxi</span>
           </div>
 
-          {/* Sağ Taraf: Sosyal Medya Linkleri */}
+          {/*Medya Linkleri*/}
           <div className="flex space-x-4 justify-center md:justify-between md:mb-0 mb-5">
             <Link
               to="#"

@@ -6,13 +6,8 @@ import HeroSection from "../components/HeroSection";
 import CitiesSection from "../components/CitiesSection";
 import PhoneSection from "../components/PhoneSection";
 
-
-
-
 export default function HomePage() {
-    console.log("HomePage Render Edildi!"); 
   return (
-    // Konsolda bu mesajı görebiliyor musun?
     <div className="">
       <PageContent>
         <HeroSection/>

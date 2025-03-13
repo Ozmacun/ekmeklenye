@@ -13,22 +13,24 @@ const Header = () => {
       {/*Desktop */}
       <div className="hidden md:flex justify-between items-center w-full max-w-6xl mx-auto px-6">
     
-        {/* Sol Kısım: Logo */}
-        <Link to={HomePage}><h1 className="text-3xl font-bold text-pink-600 italic cursor-pointer">EkmeklenYe</h1></Link>
+        {/* Sol Kısımdaki Logo */}
+        <Link to="/"><h1 className="text-3xl font-bold text-pink-600 italic cursor-pointer">EkmeklenYe</h1></Link>
         
 
-        {/* Sağ Kısım: Giriş Yap, Kayıt Ol, Dil Seçimi ve Sepet */}
+        {/* Sağ Kısımdaki Giriş Yap, Kayıt Ol, Dil Seçimi ve Sepet */}
         <div className="flex items-center space-x-4">
           {/* Giriş Yap Butonu */}
+          <Link to="/giris">
           <button className="border border-gray-500 text-gray-700 px-4 py-1 rounded-md transition-transform transform hover:scale-105 cursor-pointer">
             Giriş Yap
           </button>
-
+          </Link>
           {/* Kayıt Ol Butonu */}
+          <Link to="/kayit">
           <button className="bg-pink-600 text-white px-4 py-1 rounded-md transition-transform transform hover:scale-105 cursor-pointer">
             Kayıt Ol
           </button>
-
+          </Link>
           {/* Dil Seçimi */}
           <div className="relative">
             <button
@@ -39,7 +41,7 @@ const Header = () => {
               <FontAwesomeIcon icon={faChevronDown} className="text-pink-600" />
             </button>
 
-            {/* Dropdown Menü */}
+            {/*Dropdown*/}
             {languageMenuOpen && (
               <ul className="absolute right-0 mt-1 bg-white border border-gray-300 shadow-md rounded-md">
                 <li
@@ -65,25 +67,27 @@ const Header = () => {
           </div>
 
           {/* Sepet İkonu */}
+          <Link to="/sepet">
           <FontAwesomeIcon
             icon={faShoppingBasket}
             className="text-gray-600 text-xl cursor-pointer transition-transform transform hover:scale-105"
           />
+          </Link>
         </div>
       </div>
 
       {/* Mobil */}
       <div className="flex md:hidden justify-between items-center w-full">
-        {/* Sol: Kullanıcı İkonu */}
+        {/* Soldaki Kullanıcı İkonu */}
         <FontAwesomeIcon
           icon={faUser}
           className="text-gray-600 text-xl cursor-pointer"
         />
 
-        {/* Orta: Logo */}
+        {/* Ortadaki Logo */}
         <h1 className="text-2xl font-bold text-pink-600 italic">Ekmeklenye</h1>
 
-        {/* Sağ: Sepet İkonu */}
+        {/* Sağdaki Sepet İkonu */}
         <FontAwesomeIcon
           icon={faShoppingBasket}
           className="text-gray-600 text-xl cursor-pointer"
